@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Form from 'rc-field-form';
-import type { FieldProps } from '@/Field';
+import type { FieldProps } from '../../../src/Field';
 
 const { Field } = Form;
 

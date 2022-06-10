@@ -57,7 +57,7 @@ export default () => {
 
           return (
             <React.Fragment>
-              <Field name="username" rules={[{ required: true }]} onError={onNameError}>
+              <Field name="username" rules={[{ required: true }]}>
                 <Input
                   placeholder="Username"
                   onChange={({ target: { value } }) => {

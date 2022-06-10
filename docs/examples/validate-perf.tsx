@@ -4,7 +4,7 @@ import React from 'react';
 import Form, { Field, FormInstance } from 'rc-field-form';
 import Input from './components/Input';
 import LabelField from './components/LabelField';
-import { ValidateMessages } from '@/interface';
+import { ValidateMessages } from '../../src/interface';
 
 const myMessages: ValidateMessages = {
   default: '${name} 看起来怪怪的……',
